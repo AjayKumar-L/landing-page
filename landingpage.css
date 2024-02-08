@@ -1,0 +1,140 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 100%;
+    width: 100%;
+    margin: auto;
+}
+.landingpage{
+   /* background-image: url(https://w.forfun.com/fetch/74/7454d1bceebc32e19c5e98589b84f27c.jpeg); */
+    background-image: url(https://img.freepik.com/premium-photo/front-view-generic-brandless-moder-car_110488-502.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   height: 690px;
+}
+.hrd-nav{
+    display: flex;
+    backdrop-filter: brightness(0.5);
+    padding-top: 17px;
+
+}
+.hrd-lft-log {
+    margin: auto;
+    padding-left: 35px;
+}
+.hrd-lft-log img{
+    height: 50px;
+    width: 50px;
+    margin-top: 10px;
+}
+.hrd-rgt-menu {
+    margin-inline-start: auto;
+    margin-top: 25px;
+}
+.hrd-rgt-menu ul{
+    list-style-type: none;
+}
+.hrd-rgt-menu ul li{
+    display: inline-block;
+    padding-inline: 50px;
+}
+.hrd-rgt-menu ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 1;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+.hrd-rgt-menu ul li a:hover{
+    border-bottom: 2px solid red;
+}
+
+.hrd-rgt-search{
+    margin: 18px 10px 0px 0px;
+}
+.hrd-rgt-search input {
+    height: 30px;
+    width: 300px;
+    padding-left: 50px;
+}
+.banner-cnt .heading h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 65px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    line-height: 1;
+    padding-left: 200px;
+    padding-bottom: 20px;
+    /* background: url(image\ \(1\).jpg);*/
+    background: linear-gradient(135deg,  rgba(183,222,237,1) 0%,rgba(113,206,239,1) 50%,rgba(33,180,226,1) 51%,rgba(183,222,237,1) 100%);
+ /*
+    background: url("https://c4.wallpaperflare.com/wallpaper/66/220/943/bmw-cars-car-sport-car-wallpaper-preview.jpg");*/
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+} 
+.banner-cnt{
+    padding-top: 130px;
+} 
+
+.banner-cnt .call:hover p{
+    display:block;
+    }
+.banner-cnt .heading p{
+    font-family: 'Protest Riot', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+    line-height: 1.5;
+    padding-right: 477px;
+  text-align: center;
+    display: none;
+} 
+.banner-anchor {    
+    margin-left: 430px;
+    padding-top: 42px;
+}
+.banner-anchor a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'poppins';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1;
+    letter-spacing: 0.8px;
+    background-color: rgba(59, 92, 146, 0.553);
+    outline: 2px solid black;
+    padding: 10px 30px;
+    text-align: center;
+    border-radius: 10px;
+    outline-offset: 7px;
+    box-shadow: 0px 0px 23px deepskyblue;
+}
+.hrd-rgt-search{
+    position: relative;
+}
+.hrd-rgt-search:before{
+    background-image: url("images/magnifying-glass-solid.svg");
+    position: absolute;
+    content: "";
+    background-repeat: no-repeat;
+    height: 20px;
+    width: 29px;
+    margin: auto;
+    top: -14px;
+    right: 232px;
+    bottom: 0;
+    left: 0;
+}
